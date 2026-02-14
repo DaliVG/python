@@ -1,0 +1,55 @@
+lenguajes = ['Python', 'Kotlin','Java']
+
+print(lenguajes)
+
+lenguajes.sort()
+print(lenguajes)
+
+aprendiendo = f'Estoy aprendiendo {lenguajes[2]}'
+print(aprendiendo)
+lenguajes.append('Ruby')
+print(lenguajes)
+
+lenguajes.pop(1)
+print(lenguajes)
+
+for lenguaje in lenguajes:
+    print(f'Estoy aprendiendo {lenguaje}')
+
+# condicionales
+balance = 500
+
+if balance > 0:
+    print('Puedes pagar')
+else:
+    print('No tienes saldo.')
+
+lenguajes = ['Python', 'Kotlin','Java']
+
+if 'PHP' in lenguajes:
+    print('Esta')
+else:
+    print('No esta')
+
+# Elif
+
+ocupacion = 'Jubilado'
+
+if ocupacion == 'Estudiante':
+    print('50% desc')
+elif ocupacion == 'Jubilado':
+    print('75% desc')
+else:
+    print('0% desc')
+
+# Condicionales and or
+
+usuarioLogueado = True
+usuarioAdmin = False
+
+if usuarioLogueado and usuarioAdmin:
+    print('Admin')
+elif usuarioLogueado:
+    print('Acceso al sistema')
+else:
+    print('Debes iniciar')
