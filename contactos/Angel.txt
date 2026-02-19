@@ -1,0 +1,3 @@
+Nombre: Angel
+Teléfono: 3
+Categoria: 3
